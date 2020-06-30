@@ -77,10 +77,12 @@
 .dream-section h3{
     margin-bottom: 10px;
 }
+
 .dream-section p{
     color: dimgray;
     margin-bottom: 20px;
 }
+
 .dream-section .button{
     font-size: 20px;
     padding: 5px 20px;
@@ -90,8 +92,49 @@
     border-radius: 20px;
     background-image: linear-gradient(to left, rgba(86, 116, 250, 0.986), rgba(0, 39, 99, 0.986), rgba(86, 116, 250, 0.986));
 }
+
 .dream-section .button:hover{
     background-image: linear-gradient(to left, rgba(0, 39, 99, 0.986), rgba(86, 116, 250, 0.986),rgba(0, 39, 99, 0.986));
+}
+
+.work-section{
+    clear: both;
+    background-image: url("asset/latest-work-bg.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 500px;
+}
+
+.work-section h1{
+    text-align: center;
+    margin: 50px 400px;
+    font-size: 50px;
+    color: white;
+    border: none;
+    padding: 10px 10px;
+    border-radius: 50px;
+    background-image: linear-gradient(to bottom, rgba(83, 83, 243, 0.815), rgba(19, 19, 204, 0.801));
+}
+
+.work-section h1:hover{
+    background-image: linear-gradient(to bottom, rgba(19, 19, 204, 0.801),  rgba(83, 83, 243, 0.815))
+}
+
+.work-image{
+    float: left;
+    width: 25%;
+    height:auto;
+    margin: 3%;
+
+}
+
+.work-image img{
+    width: 100%;
+    height: auto;
+}
+
+.work-image img:hover{
+    box-shadow: 5px 5px 15px black;
 }
 
 
