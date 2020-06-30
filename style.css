@@ -110,7 +110,6 @@
     margin: 50px 400px;
     font-size: 50px;
     color: white;
-    border: none;
     padding: 10px 10px;
     border-radius: 50px;
     background-image: linear-gradient(to bottom, rgba(83, 83, 243, 0.815), rgba(19, 19, 204, 0.801));
@@ -136,6 +135,86 @@
 .work-image img:hover{
     box-shadow: 5px 5px 15px black;
 }
+
+.footer-section{
+    clear: both;
+    height: 500px;
+    background-image: url("asset/footer-bg.png");
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.comment-box{
+    border: 5px solid rgb(43, 43, 219);
+    margin: 0 20% ;
+    border-radius: 20px;
+    padding-bottom: 20px;
+}
+
+.footer-section h1{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 50px;
+    margin-bottom: 80px;   
+}
+
+.footer-section h2{
+    text-align: center;
+    font-size: 20px;
+    
+}
+
+.footer-section p{
+    text-align: center;
+}
+
+.footer-section #position{
+    color: dimgray;
+    margin-bottom: 30px;
+    
+}
+
+.footer-section #comment{
+    margin: 0 25% ;
+    font-weight: 700;
+    font-size: 13px;
+    color: rgb(75, 74, 74);
+}
+
+
+.email-box{
+    margin: 10% 20%;
+    padding: 5% 8%;
+    background-image: linear-gradient( to bottom, rgb(48, 14, 240) , rgb(65, 65, 226));
+    color: white;
+    border-radius: 50px;
+}
+
+.email-box .message{
+    margin-bottom: 20px;
+}
+
+.email-box .email{
+    font-size: 35px;
+    font-weight: bold;
+    background-image: linear-gradient(to top, rgb(48, 14, 240) , rgb(65, 65, 226));
+    padding: 5px 20px;
+    border-radius: 20px;
+}
+
+.email-box .email:hover{
+    background-image: linear-gradient(to bottom, rgb(48, 14, 240) , rgb(65, 65, 226));
+}
+
+#bottom-line{
+    color: dimgray;
+    text-align: center;
+    bottom:0;
+    font-size: 13px;
+}
+
 
 
 
