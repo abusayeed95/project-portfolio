@@ -31,6 +31,15 @@
     margin-bottom: 20px;
 }
 
+.header-section .programming-hero{
+    color: dimgray;
+    text-decoration: none;
+}
+
+.header-section .programming-hero:hover{
+    color: rgb(236, 0, 0);   
+}
+
 .header-section .button{
     font-size: 20px;
     padding: 5px 20px;
@@ -38,11 +47,11 @@
     color: white;
     text-decoration: none;
     border-radius: 20px;
-    background-image: linear-gradient(to left, rgba(86, 116, 250, 0.986), rgba(0, 39, 99, 0.986), rgba(86, 116, 250, 0.986));
+    background-image: linear-gradient(to left, rgba(86, 116, 250, 0.986), rgba(15, 60, 128, 0.801), rgba(86, 116, 250, 0.986));
 }
 
 .header-section .button:hover{
-    background-image: linear-gradient(to left, rgba(0, 39, 99, 0.986), rgba(86, 116, 250, 0.986),rgba(0, 39, 99, 0.986));
+    background-image: linear-gradient(to left, rgba(19, 61, 122, 0.986), rgba(86, 116, 250, 0.986),rgba(40, 81, 143, 0.986));
 }
 
 .im-half{
@@ -116,7 +125,8 @@
 }
 
 .work-section h1:hover{
-    background-image: linear-gradient(to bottom, rgba(19, 19, 204, 0.801),  rgba(83, 83, 243, 0.815))
+    background-image: linear-gradient(to bottom, rgba(19, 19, 204, 0.801),  rgba(83, 83, 243, 0.815));
+    cursor: not-allowed;
 }
 
 .work-image{
@@ -124,6 +134,10 @@
     width: 25%;
     height:auto;
     margin: 3%;
+    border-top: 8px solid; 
+    border-image:linear-gradient(  rgb(164, 220, 228), rgb(54, 54, 235));     
+    border-image-slice: 1;
+    margin-bottom: 20px;
 
 }
 
@@ -134,6 +148,11 @@
 
 .work-image img:hover{
     box-shadow: 5px 5px 15px black;
+    border-bottom: 8px solid;
+    border-image: linear-gradient( rgb(164, 220, 228), rgb(54, 54, 235));
+    border-image-slice: 1;
+    cursor: not-allowed;
+   
 }
 
 .footer-section{
@@ -152,6 +171,8 @@
     border-radius: 20px;
     padding-bottom: 20px;
 }
+
+
 
 .footer-section h1{
     text-align: center;
@@ -187,7 +208,7 @@
 .email-box{
     margin: 10% 20%;
     padding: 5% 8%;
-    background-image: linear-gradient( to bottom, rgb(48, 14, 240) , rgb(65, 65, 226));
+    background-image: linear-gradient( to bottom, rgb(195, 14, 240) , rgb(192, 148, 212));
     color: white;
     border-radius: 50px;
 }
@@ -199,9 +220,11 @@
 .email-box .email{
     font-size: 35px;
     font-weight: bold;
-    background-image: linear-gradient(to top, rgb(48, 14, 240) , rgb(65, 65, 226));
+    background-image: linear-gradient(to top, rgb(195, 14, 240) , rgb(192, 148, 212));
     padding: 5px 20px;
     border-radius: 20px;
+    text-decoration: none;
+    color: white;
 }
 
 .email-box .email:hover{
